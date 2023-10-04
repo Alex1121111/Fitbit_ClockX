@@ -1,0 +1,27 @@
+{
+  "name": "clockx",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "^4.3.2",
+    "@fitbit/sdk-cli": "^1.7.0"
+  },
+  "fitbit": {
+    "appUUID": "15b79e21-c05d-41f8-b697-f6ed3517444f",
+    "appType": "clockface",
+    "appDisplayName": "Clockx",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

@@ -1,0 +1,13 @@
+<svg class = "background">
+  <image href="final.jpg"/>
+  <text id = "hour"/>
+  <text id = "min"/>
+  <text id = "day"/>
+  <text id = "battery" x="100%-31" y="27"/>
+    <g fill="#801d41" class="rings">
+      <arc x="100%-41" y="1" width="40" height="40" fill="inherit" arc-width="8" start-angle="0" sweep-angle="360" />
+    </g>
+    <g class="color2 rings" fill="#e31193">
+    <arc x="100%-41"y="1" width="40" height="40" fill="inherit" arc-width="8" start-angle="0" sweep-angle="0" id="today_tl" />
+    </g>
+</svg>

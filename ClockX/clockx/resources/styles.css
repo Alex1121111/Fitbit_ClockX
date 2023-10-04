@@ -1,0 +1,37 @@
+.background {
+  viewport-fill: red;
+}
+
+#hour {
+  font-size: 120;
+  font-family: "System-Regular";
+  text-length: 32;
+  text-anchor: middle;
+  x: 40%;
+  y: 30%+40;
+  fill: white;
+}
+#min {
+  font-size: 120;
+  font-family: "System-Regular";
+  text-length: 32;
+  text-anchor: middle;
+  x: 60%;
+  y: 70%+40;
+  fill: white;
+}
+
+#day {
+  font-size: 20;
+  font-family: "System-Light";
+  text-length: 32;
+  x: 40%;
+  y: 82%+40;
+  fill: white;
+}
+#battery {
+  text-length: 10;
+  font-size: 17;
+  fill: white;
+  font-family: "System-Regular";
+}
